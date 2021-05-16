@@ -1,0 +1,16 @@
+-- 상품
+INSERT INTO product VALUES('1', '파랑풍선', '한국', 70000, '2020-04-21');
+INSERT INTO product VALUES('2', '참깨여행사', '일본', 100000, '2020-04-21');
+INSERT INTO product VALUES('3', '두개투어', '미국', 700000, '2020-04-21');
+INSERT INTO product VALUES('4', '혼자투어', '캐나다', 800000, '2020-04-21');
+INSERT INTO product VALUES('5', '인터체인지', '러시아', 500000, '2020-04-21');
+INSERT INTO product VALUES('6', '오프라인투어', '몽골', 550000, '2020-04-21');
+INSERT INTO product VALUES('7', '호텔가야', '프랑스', 1100000, '2020-04-21');
+INSERT INTO product VALUES('8', '레드냅투어', '영국', 1120000, '2020-04-21');
+INSERT INTO product VALUES('9', '트어바', '브라질', 1500000, '2020-04-21');
+
+-- 구매 내역 완료 샘플 데이터
+INSERT INTO contract VALUES(seq_contract_cid.nextval, 3*100000, sysdate);
+INSERT INTO history VALUES(2, '2', 3, 3*100000);
+
+commit;

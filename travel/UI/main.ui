@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="7">
+     <widget class="QPushButton" name="buy">
+      <property name="text">
+       <string>구매 완료</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="product1">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="price5">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6" rowspan="6" colspan="2">
+     <widget class="QTableWidget" name="bookmark_table">
+      <property name="minimumSize">
+       <size>
+        <width>381</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string>tue</string>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>제품번호</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>상품명</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>가격</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>제조사</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="5" column="4" colspan="2">
+     <widget class="QGraphicsView" name="pic9"/>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QLabel" name="product_label">
+      <property name="text">
+       <string>구매 가능 상품</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2" colspan="2">
+     <widget class="QGraphicsView" name="pic5"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="price4">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="6">
+     <widget class="QLabel" name="total">
+      <property name="text">
+       <string>합계 :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="product8">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4" colspan="2">
+     <widget class="QGraphicsView" name="pic6"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="product7">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="price2">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="6">
+     <widget class="QPushButton" name="initional">
+      <property name="text">
+       <string>구매 초기화</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="price1">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QGraphicsView" name="pic4"/>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="price3">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="history">
+      <property name="text">
+       <string>구매 내역 확인</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLabel" name="product6">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLabel" name="price9">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLabel" name="price7">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="product4">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLabel" name="product9">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QGraphicsView" name="pic1"/>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLabel" name="price8">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4" colspan="2">
+     <widget class="QGraphicsView" name="pic3"/>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QGraphicsView" name="pic2"/>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QGraphicsView" name="pic7"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="product5">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" colspan="2">
+     <widget class="QGraphicsView" name="pic8"/>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLabel" name="bookmark_label">
+      <property name="text">
+       <string>장바구니</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="product2">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLabel" name="price6">
+      <property name="text">
+       <string>가격</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="product3">
+      <property name="text">
+       <string>상품명</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>998</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>옵션</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>료</string>
+   </property>
+  </action>
+  <action name="actioneixt">
+   <property name="text">
+    <string>eixt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,37 @@
+-- 상품 종류 테이블
+DROP TABLE product CASCADE CONSTRAINTS;
+
+CREATE TABLE product(
+    id varchar2(1) primary key,
+    supplier varchar2(100),
+    name varchar2(40),
+    price number(13),
+    regi_date date
+);
+
+-- 구매 완료
+DROP TABLE contract CASCADE CONSTRAINTS;
+
+CREATE TABLE contract(
+    cid varchar2(10) primary key,
+    total_price number(20),
+    buy_date date
+);
+
+-- 구매 내역 완료 테이블
+DROP TABLE history CASCADE CONSTRAINTS;
+
+CREATE TABLE history(
+    cid varchar2(10),
+    id varchar2(1),
+    quantity number,
+    product_total_price number(20),
+    CONSTRAINT product_history_fk FOREIGN KEY (id) REFERENCES product(id),
+    CONSTRAINT contract_history_fk FOREIGN KEY (cid) REFERENCES contract(cid)
+);
+
+DROP SEQUENCE seq_contract_cid;
+
+CREATE SEQUENCE seq_contract_cid
+INCREMENT BY 1 --증감숫자 1
+START WITH 2;

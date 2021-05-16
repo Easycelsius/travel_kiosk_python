@@ -1,0 +1,32 @@
+QMainWindow, QDialog {
+    background-color: #616161;
+    color: white;
+}
+
+QLabel{
+    color: white;
+}
+
+QPixmap{
+    border-radius: 10px;
+}
+
+QPushButton {
+    color: whitesmoke;
+    border-radius: 2px;
+    padding: 0.2em 0.2em 0.3em 0.2em;
+    border: 1px solid rgb(100, 100, 100);
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f4f4f4, stop:0.1 #8F8F8F, stop:1  #7B7B7B);
+    color: white;
+    min-width: 70px;
+}
+
+QPushButton:hover{
+    color: white;
+    font: bold;
+    border: 0;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f4f4f4, stop:0.1 rgb(58, 70, 255), stop:1  rgb(58, 134, 255));
+}
+
+
+
